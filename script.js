@@ -123,3 +123,11 @@ closeBtn.addEventListener("click", () => {
         projectNav.style.color = "#fff"
     }
 }
+
+// Typing functionality:-
+var typed = new Typed(".auto-type",{
+    strings : ["Frontend Dev", "Backend Dev", "Designer"],
+    typeSpeed : 150,
+    backSpeed : 50,
+    loop : true,
+});
