@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/53c4033439.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
-    <link rel="shortcut icon" href="/portfolio-images/browser-icon-2.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="/portfolio-images/browser-icon.png" type="image/x-icon">
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Amrish S - Portfolio</title>
@@ -34,15 +34,20 @@
             <div class="home-content">
                 <h3>Hello it's me <span class="my-name">Amrish S</span></h3>
                 <h3>and I'm a <span class="auto-type"></span></h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s.</p>
+                <p>
+                    Hi, I am a young teenage boy. I'm a passionate developer and also I am a Software Trainee at DCKAP Technologies. 
+                    A boy with an active and brisk attitude and I seek to acquire knowledge consistently about New Peoples, Life, cultures, and technologies. 
+                    I am a talkative, humorous, and kindful boy. 
+                    I'm a creative thinker and I'm curious to learn and do something interesting which I have seen.
+                </p>
 
                 <div class="social-media">
                     <a href="https://www.linkedin.com/in/amrish-s-4315b2278/" target="_blank"><i class="fa fa-linkedin"></i></a>
                     <a href="https://www.instagram.com/mr.peace_minder/" target="_blank" ><i class="fa fa-instagram"></i></a>
                     <a href="https://github.com/amrishsekar" target="_blank"><i class="fa fa-github" ></i></a>
-                    <a href="https://discord.com/channels/1106985293762003045/1106985294194028656" target="_blank" ><i class="fa fa-discord"></i></a>
+                    <a href="https://discord.gg/vDVEBhz3Hv" target="_blank" ><i class="fa fa-discord"></i></a>
                     <a href="https://www.facebook.com/profile.php?id=100056430444474&mibextid=ZbWKwL" target="_blank" ><i class="fa fa-facebook"></i></a>
-                    <a href="https://in.pinterest.com/amrishlovely/" target="_blank" ><i class="fa fa-pinterest"></i></a>
+                    <a href="https://twitter.com/AmrishSekar" target="_blank" ><i class="fa fa-twitter"></i></a>
                 </div>
                 <a href="#" value="Download" class="download-btn">Download <span class="cv">cv</span> </a>
             </div>
@@ -125,7 +130,7 @@
 
         <!-- Skill sets portion -->
         <section class="skills" id="skills">
-            <div class="skills-content">
+            <!-- <div class="skills-content">
 
                 <h2 class="skills-heading">My <span>Skills.!</span></h2>
 
@@ -211,7 +216,7 @@
 
                 </div>
 
-            </div>
+            </div> -->
         </section>
 
         <!-- Project portion -->
@@ -230,19 +235,19 @@
                 <h2 class="contact-heading">Get in <span>Touch.!</span></h2>
 
                 <div class="form-section">
-                    <form action="#">
+                    <form action="./mail.php" method="post">
                         <div class="input-box">
-                            <input type="text" class="name input" placeholder="Name">
-                            <input type="email" class="email input" placeholder="E-mail">
+                            <input type="text" class="name input" placeholder="Name" name="name">
+                            <input type="email" class="email input" placeholder="E-mail" name="email-id">
                         </div>
     
                         <div class="input-box">
-                            <input type="text" class="number input" placeholder="Phone no">
-                            <input type="text" class="email-subject input" placeholder="Subject">
+                            <input type="text" class="number input" placeholder="Phone no" name="phone-number">
+                            <input type="text" class="email-subject input" placeholder="Subject" name="subject">
                         </div>
-                        <textarea class="message-box" placeholder="Message"></textarea>
+                        <textarea class="message-box" name="Message" placeholder="Message"></textarea>
                         <br>
-                        <button class="mail-btn">Send Message</button>
+                        <button class="mail-btn" name="Send">Send Message</button>
                     </form>
                 </div>
             </div>

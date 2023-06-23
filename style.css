@@ -107,8 +107,9 @@ h3 span, .project-content h2 span, .contact-content h2 span, .skills-content h2 
 }
 
 .my-name{
-    color: var(--main-color);
-    text-shadow: 0 0 0.25rem var(--text-color);
+    color: var(--modal-bg-color);
+    font-size: 1.25em;
+    -webkit-text-stroke: .75px var(--main-color);
 }
 
 /* Image floating animation */
@@ -226,8 +227,8 @@ h3 span, .project-content h2 span, .contact-content h2 span, .skills-content h2 
     color: var(--text-color);
     padding: 20px;
     border-radius: 7px;
-    max-width: 80%;
-    height: 400px;
+    max-width: 60%;
+    height: 500px;
     border: 1px solid;
     position: relative;
 }
@@ -244,7 +245,7 @@ h3 span, .project-content h2 span, .contact-content h2 span, .skills-content h2 
     line-height: 25px;
     font-size: 14px;
     overflow-x: hidden;
-    height: 320px;
+    height: 420px;
 }
 .all-content::-webkit-scrollbar{
     display: none;
@@ -397,7 +398,7 @@ h3 span, .project-content h2 span, .contact-content h2 span, .skills-content h2 
 }
 
 /* Skills portion */
-.skill-container{
+/* .skill-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -495,4 +496,4 @@ h3 span, .project-content h2 span, .contact-content h2 span, .skills-content h2 
 .percentage-div{
     position: absolute;
     font-size: 24px;
-}
+} */

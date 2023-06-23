@@ -23,24 +23,24 @@ const image = document.querySelector(".project-image");
 const Projects = [
     {
         id: 1,
-        image: "./portfolio-images/stock-counter.png",
-        name: "Track Counter",
-        description: "A react app that counts the number of stocks bought in a portfolio. Lets go and check my project",
-        github: "https://amrishsekar.github.io/Track-counter/"
-    },
-    {
-        id: 2,
         image: "./portfolio-images/emi-calc.png",
-        name: "EMI Calculator",
+        name: "EMI-Calculator",
         description: "A react app that counts the number of stocks bought in a portfolio. Lets go and check my project",
         github: "https://amrishsekar.github.io/EMI-calculator/"
     },
     {
-        id: 3,
+        id: 2,
         image: "./portfolio-images/keyboard.png",
         name: "Keyboard",
         description: "A react app that counts the number of stocks bought in a portfolio. Lets go and check my project",
         github: "https://amrishsekar.github.io/Online-Keyboard/"
+    },
+    {
+        id: 3,
+        image: "./portfolio-images/text-to-speech-convertor.png",
+        name: "Text-to-Speech",
+        description: "A react app that counts the number of stocks bought in a portfolio. Lets go and check my project",
+        github: "https://amrishsekar.github.io/Text-to-speech-convertor/"
     }
 ]
 
